@@ -1,0 +1,11 @@
+.blog-Swiper{
+	.swiper-button-disabled{
+		display: none;
+	}
+	.swiper-button-prev, .swiper-button-next{
+		&::after {
+			content: "" !important;
+			display: none;
+		}
+	}
+}
