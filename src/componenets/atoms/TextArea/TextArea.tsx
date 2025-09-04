@@ -1,4 +1,5 @@
 import React, { ChangeEvent } from 'react';
+import { UseFormRegisterReturn } from 'react-hook-form';
 
 interface TextareaFieldProps {
   id: string;
@@ -7,7 +8,7 @@ interface TextareaFieldProps {
   disabled?: boolean;
   className?: string;
   rows?: number;
-  register: any; // Register function from react-hook-form
+  register: UseFormRegisterReturn; // Register function from react-hook-form
   label?: string;
   required?: boolean;
   error?: string;

@@ -1,4 +1,5 @@
 import React, { ChangeEvent } from 'react';
+import { UseFormRegisterReturn } from 'react-hook-form';
 
 interface InputFieldProps {
   id: string;
@@ -7,7 +8,7 @@ interface InputFieldProps {
   onChange?: (e: ChangeEvent<HTMLInputElement>) => void;
   disabled?: boolean;
   className?: string;
-  register: any; // Register function from react-hook-form
+  register: UseFormRegisterReturn; // Register function from react-hook-form
   label?: string;
   required?: boolean;
   error?: string;

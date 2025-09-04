@@ -27,7 +27,7 @@ const EfficientSection = () => {
                                     developer community to elevate your tools and streamline your
                                     tasks. From image editing to real-time translations, find
                                     everything you need to optimize your workflow—all in one place.
-                                    Whether you're a tech enthusiast or a productivity pro, these
+                                    Whether you&apos;re a tech enthusiast or a productivity pro, these
                                     extensions help you work smarter, not harder.
                                 </p>
                                 {/* Actions */}

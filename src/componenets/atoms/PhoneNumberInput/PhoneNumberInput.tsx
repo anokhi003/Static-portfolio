@@ -9,7 +9,7 @@ interface PhoneNumberInputProps {
     label?: string;
     required?: boolean;
     error?: string;
-    register?: any; // Optional for react-hook-form integration
+    register?: unknown; // Optional for react-hook-form integration
     className?: string;
     placeholder?: string;
 }
